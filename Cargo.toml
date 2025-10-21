@@ -1,0 +1,13 @@
+[package]
+name = "test"
+version = "0.0.1"
+authors = ["Taylor Smith <aspenhalls.org@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+avian2d = { version = "0.4.0" }
+bevy-inspector-egui = { version = "0.34.0" }
+bevy_ecs_ldtk = { path = "deps/bevy_ecs_ldtk", features = ["external_levels"] }
+bevy = { version = "0.17.2", default-features = true, features = [
+    "reflect_auto_register",
+] }

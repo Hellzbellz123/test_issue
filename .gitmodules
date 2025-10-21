@@ -1,0 +1,4 @@
+[submodule "deps/bevy_ecs_ldtk"]
+	path = deps/bevy_ecs_ldtk
+	url = https://github.com/Trouv/bevy_ecs_ldtk
+	branch = lenchog/0.17-collab
